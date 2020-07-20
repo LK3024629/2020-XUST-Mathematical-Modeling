@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591594613072.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "378102135",
+    "id" : "E7FD0F5E",
+    "lastKnownWriteTime" : 1557190364,
+    "last_content_update" : 1557190364,
+    "path" : "~/Downloads/WIE2003/Examples of Shiny App-20200608/Shiny Examples/app.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "41,50",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

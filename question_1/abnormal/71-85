@@ -1,0 +1,683 @@
+[1] "T1715" "T1730" "T1745" "T1800" "T1815" "T1830" "T1845" "T1900" "T1915" "T1930" "T1945" "T2000" "T2015" "T2030" "T2045"
+> for (i in name1){
++    print(rosnerTest(original_data[,i], k = 10, warn = F))
++ }
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Number NA/NaN/Inf's Removed:     2
+
+Sample Size:                     1073
+
+Test Statistics:                 R.1  = 3.133113
+                                 R.2  = 3.134313
+                                 R.3  = 3.111767
+                                 R.4  = 3.070099
+                                 R.5  = 3.079724
+                                 R.6  = 3.091972
+                                 R.7  = 3.024094
+                                 R.8  = 3.025821
+                                 R.9  = 3.024182
+                                 R.10 = 3.037233
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i      SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4471.200 1009.3901 7633.734     569 3.133113   4.057294   FALSE
+2  1 4468.250 1005.2226 7618.932     566 3.134313   4.057065   FALSE
+3  2 4465.308 1001.0648 7580.389     571 3.111767   4.056837   FALSE
+4  3 4462.397  996.9866 7523.245     207 3.070099   4.056608   FALSE
+5  4 4459.534  993.0421 7517.829     584 3.079724   4.056379   FALSE
+6  5 4456.670  989.0818 7514.883     565 3.091972   4.056149   FALSE
+7  6 4453.804  985.0983 7432.834     208 3.024094   4.055920   FALSE
+8  7 4451.009  981.3200 7420.308     206 3.025821   4.055690   FALSE
+9  8 4448.221  977.5479 7404.504     961 3.024182   4.055460   FALSE
+10 9 4445.443  973.7913 7403.074     570 3.037233   4.055229   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Number NA/NaN/Inf's Removed:     2
+
+Sample Size:                     1073
+
+Test Statistics:                 R.1  = 3.132903
+                                 R.2  = 3.126818
+                                 R.3  = 3.062117
+                                 R.4  = 3.054246
+                                 R.5  = 3.053234
+                                 R.6  = 3.060697
+                                 R.7  = 3.025744
+                                 R.8  = 3.031040
+                                 R.9  = 3.033583
+                                 R.10 = 3.036253
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4476.087 993.8908 7589.851     566 3.132903   4.057294   FALSE
+2  1 4473.183 989.7879 7568.070     569 3.126818   4.057065   FALSE
+3  2 4470.293 985.7158 7488.669     571 3.062117   4.056837   FALSE
+4  3 4467.472 981.8421 7466.259     584 3.054246   4.056608   FALSE
+5  4 4464.667 978.0023 7450.737     207 3.053234   4.056379   FALSE
+6  5 4461.871 974.1768 7443.531     565 3.060697   4.056149   FALSE
+7  6 4459.076 970.3417 7395.082     208 3.025744   4.055920   FALSE
+8  7 4456.322 966.6155 7386.172     206 3.031040   4.055690   FALSE
+9  8 4453.571 962.8855 7374.564     570 3.033583   4.055460   FALSE
+10 9 4450.826 959.1593 7363.076     961 3.036253   4.055229   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Number NA/NaN/Inf's Removed:     1
+
+Sample Size:                     1074
+
+Test Statistics:                 R.1  = 3.131117
+                                 R.2  = 3.068485
+                                 R.3  = 3.031581
+                                 R.4  = 2.999594
+                                 R.5  = 3.002376
+                                 R.6  = 2.977128
+                                 R.7  = 2.978347
+                                 R.8  = 2.972305
+                                 R.9  = 2.971768
+                                 R.10 = 2.973793
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4466.638 980.6494 7537.165     566 3.131117   4.057522   FALSE
+2  1 4463.776 976.6100 7460.490     569 3.068485   4.057294   FALSE
+3  2 4460.981 972.7615 7409.986     584 3.031581   4.057065   FALSE
+4  3 4458.227 969.0273 7364.915     207 2.999594   4.056837   FALSE
+5  4 4455.511 965.3919 7353.980     565 3.002376   4.056608   FALSE
+6  5 4452.799 961.7591 7316.079     206 2.977128   4.056379   FALSE
+7  6 4450.118 958.2049 7303.985     571 2.978347   4.056149   FALSE
+8  7 4447.444 954.6573 7284.977     570 2.972305   4.055920   FALSE
+9  8 4444.782 951.1357 7271.336     208 2.971768   4.055690   FALSE
+10 9 4442.128 947.6251 7260.169     961 2.973793   4.055460   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.016629
+                                 R.2  = 3.020688
+                                 R.3  = 2.968238
+                                 R.4  = 2.960837
+                                 R.5  = 2.969584
+                                 R.6  = 2.972520
+                                 R.7  = 2.903191
+                                 R.8  = 2.908741
+                                 R.9  = 2.876528
+                                 R.10 = 2.888929
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4456.053 969.9581 7382.057     566 3.016629   4.057750   FALSE
+2  1 4453.329 966.2862 7372.178     569 3.020688   4.057522   FALSE
+3  2 4450.609 962.6137 7307.875     207 2.968238   4.057294   FALSE
+4  3 4447.943 959.0936 7287.663     565 2.960837   4.057065   FALSE
+5  4 4445.292 955.6028 7283.034     584 2.969584   4.056837   FALSE
+6  5 4442.640 952.0981 7272.771     206 2.972520   4.056608   FALSE
+7  6 4439.992 948.5952 7193.945     208 2.903191   4.056379   FALSE
+8  7 4437.414 945.2839 7187.000     570 2.908741   4.056149   FALSE
+9  8 4434.837 941.9666 7144.430     961 2.876528   4.055920   FALSE
+10 9 4432.295 938.7406 7144.250     205 2.888929   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 2.928859
+                                 R.2  = 2.938640
+                                 R.3  = 2.939934
+                                 R.4  = 2.947979
+                                 R.5  = 2.902146
+                                 R.6  = 2.892102
+                                 R.7  = 2.877000
+                                 R.8  = 2.863401
+                                 R.9  = 2.844631
+                                 R.10 = 2.811574
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4460.845 954.4362 7256.254     566 2.928859   4.057750   FALSE
+2  1 4458.242 951.0562 7253.053     569 2.938640   4.057522   FALSE
+3  2 4455.637 947.6595 7241.694     207 2.939934   4.057294   FALSE
+4  3 4453.038 944.2684 7236.722     565 2.947979   4.057065   FALSE
+5  4 4450.439 940.8652 7180.967     584 2.902146   4.056837   FALSE
+6  5 4447.887 937.5897 7159.493     206 2.892102   4.056608   FALSE
+7  6 4445.351 934.3481 7133.470     570 2.877000   4.056379   FALSE
+8  7 4442.834 931.1530 7109.098     568 2.863401   4.056149   FALSE
+9  8 4440.335 928.0002 7080.153     585 2.844631   4.055920   FALSE
+10 9 4437.858 924.9019 7038.288     205 2.811574   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 2.942216
+                                 R.2  = 2.937090
+                                 R.3  = 2.943239
+                                 R.4  = 2.912813
+                                 R.5  = 2.843377
+                                 R.6  = 2.851802
+                                 R.7  = 2.839677
+                                 R.8  = 2.782910
+                                 R.9  = 2.789302
+                                 R.10 = 2.797535
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4476.177 941.8860 7247.408     566 2.942216   4.057750   FALSE
+2  1 4473.597 938.5159 7230.102     569 2.937090   4.057522   FALSE
+3  2 4471.028 935.1680 7223.450     565 2.943239   4.057294   FALSE
+4  3 4468.460 931.8130 7182.657     207 2.912813   4.057065   FALSE
+5  4 4465.926 928.5449 7106.129     206 2.843377   4.056837   FALSE
+6  5 4463.458 925.4595 7102.685     584 2.851802   4.056608   FALSE
+7  6 4460.989 922.3606 7080.196     570 2.839677   4.056379   FALSE
+8  7 4458.537 919.2992 7016.864     585 2.782910   4.056149   FALSE
+9  8 4456.139 916.3832 7012.209     938 2.789302   4.055920   FALSE
+10 9 4453.741 913.4584 7009.173     205 2.797535   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 2.974302
+                                 R.2  = 2.972908
+                                 R.3  = 2.934527
+                                 R.4  = 2.904467
+                                 R.5  = 2.902219
+                                 R.6  = 2.799015
+                                 R.7  = 2.801573
+                                 R.8  = 2.809084
+                                 R.9  = 2.796153
+                                 R.10 = 2.730988
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4469.317 921.9738 7211.546     566 2.974302   4.057750   FALSE
+2  1 4466.763 918.5930 7197.656     569 2.972908   4.057522   FALSE
+3  2 4464.218 915.2251 7149.971     565 2.934527   4.057294   FALSE
+4  3 4461.713 911.9636 7110.481     207 2.904467   4.057065   FALSE
+5  4 4459.240 908.7859 7096.736     206 2.902219   4.056837   FALSE
+6  5 4456.775 905.6218 6991.624     570 2.799015   4.056608   FALSE
+7  6 4454.404 902.7164 6983.430     584 2.801573   4.056379   FALSE
+8  7 4452.036 899.8115 6979.681     585 2.809084   4.056149   FALSE
+9  8 4449.667 896.8953 6957.524     205 2.796153   4.055920   FALSE
+10 9 4447.314 894.0165 6888.862     568 2.730988   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 2.969352
+                                 R.2  = 2.964664
+                                 R.3  = 2.904627
+                                 R.4  = 2.894589
+                                 R.5  = 2.877817
+                                 R.6  = 2.825377
+                                 R.7  = 2.824093
+                                 R.8  = 2.811891
+                                 R.9  = 2.741750
+                                 R.10 = 2.735686
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4470.622 902.0558 7149.143     565 2.969352   4.057750   FALSE
+2  1 4468.128 898.7605 7132.651     566 2.964664   4.057522   FALSE
+3  2 4465.644 895.4859 7066.697     569 2.904627   4.057294   FALSE
+4  3 4463.218 892.3681 7046.257     207 2.894589   4.057065   FALSE
+5  4 4460.806 889.2827 7019.999     206 2.877817   4.056837   FALSE
+6  5 4458.415 886.2454 6962.392     205 2.825377   4.056608   FALSE
+7  6 4456.072 883.3404 6950.707     570 2.824093   4.056379   FALSE
+8  7 4453.736 880.4451 6929.452     961 2.811891   4.056149   FALSE
+9  8 4451.416 877.5852 6857.535     585 2.741750   4.055920   FALSE
+10 9 4449.159 874.8930 6842.591     568 2.735686   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.001596
+                                 R.2  = 3.006803
+                                 R.3  = 3.006074
+                                 R.4  = 2.924270
+                                 R.5  = 2.908667
+                                 R.6  = 2.851396
+                                 R.7  = 2.816560
+                                 R.8  = 2.771841
+                                 R.9  = 2.746613
+                                 R.10 = 2.735681
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4492.653 881.3022 7137.966     565 3.001596   4.057750   FALSE
+2  1 4490.190 878.0032 7130.173     566 3.006803   4.057522   FALSE
+3  2 4487.729 874.7007 7117.145     569 3.006074   4.057294   FALSE
+4  3 4485.277 871.4093 7033.513     206 2.924270   4.057065   FALSE
+5  4 4482.897 868.3257 7008.568     207 2.908667   4.056837   FALSE
+6  5 4480.537 865.2872 6947.814     570 2.851396   4.056608   FALSE
+7  6 4478.229 862.3908 6907.204     205 2.816560   4.056379   FALSE
+8  7 4475.955 859.5814 6858.578     585 2.771841   4.056149   FALSE
+9  8 4473.722 856.8798 6827.239     961 2.746613   4.055920   FALSE
+10 9 4471.514 854.2403 6808.443     568 2.735681   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 2.984846
+                                 R.2  = 2.967687
+                                 R.3  = 2.970736
+                                 R.4  = 2.913454
+                                 R.5  = 2.884815
+                                 R.6  = 2.835560
+                                 R.7  = 2.840907
+                                 R.8  = 2.846671
+                                 R.9  = 2.808710
+                                 R.10 = 2.728841
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4490.170 862.3623 7064.189     566 2.984846   4.057750   FALSE
+2  1 4487.773 859.1748 7037.535     565 2.967687   4.057522   FALSE
+3  2 4485.397 856.0372 7028.458     569 2.970736   4.057294   FALSE
+4  3 4483.025 852.9008 6967.912     207 2.913454   4.057065   FALSE
+5  4 4480.705 849.9080 6932.532     206 2.884815   4.056837   FALSE
+6  5 4478.413 846.9891 6880.102     570 2.835560   4.056608   FALSE
+7  6 4476.167 844.1898 6874.431     961 2.840907   4.056379   FALSE
+8  7 4473.921 841.3850 6869.067     205 2.846671   4.056149   FALSE
+9  8 4471.676 838.5739 6826.988     585 2.808710   4.055920   FALSE
+10 9 4469.467 835.8545 6750.380     938 2.728841   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.001932
+                                 R.2  = 2.969977
+                                 R.3  = 2.961678
+                                 R.4  = 2.956642
+                                 R.5  = 2.909109
+                                 R.6  = 2.821757
+                                 R.7  = 2.823175
+                                 R.8  = 2.828630
+                                 R.9  = 2.827518
+                                 R.10 = 2.739041
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4500.762 853.8291 7063.899     566 3.001932   4.057750   FALSE
+2  1 4498.376 850.6322 7024.734     569 2.969977   4.057522   FALSE
+3  2 4496.021 847.5204 7006.103     565 2.961678   4.057294   FALSE
+4  3 4493.680 844.4366 6990.376     961 2.956642   4.057065   FALSE
+5  4 4491.348 841.3730 6938.994     207 2.909109   4.056837   FALSE
+6  5 4489.061 838.4278 6854.900     206 2.821757   4.056608   FALSE
+7  6 4486.848 835.6875 6846.140     585 2.823175   4.056379   FALSE
+8  7 4484.639 832.9505 6840.747     205 2.828630   4.056149   FALSE
+9  8 4482.431 830.2078 6829.858     570 2.827518   4.055920   FALSE
+10 9 4480.228 827.4740 6746.714     568 2.739041   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.030290
+                                 R.2  = 3.028462
+                                 R.3  = 3.007859
+                                 R.4  = 2.971955
+                                 R.5  = 2.899317
+                                 R.6  = 2.874397
+                                 R.7  = 2.881570
+                                 R.8  = 2.877062
+                                 R.9  = 2.813854
+                                 R.10 = 2.795955
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4508.716 852.6759 7092.571     566 3.030290   4.057750   FALSE
+2  1 4506.310 849.4151 7078.731     961 3.028462   4.057522   FALSE
+3  2 4503.913 846.1680 7049.067     569 3.007859   4.057294   FALSE
+4  3 4501.538 842.9797 7006.836     565 2.971955   4.057065   FALSE
+5  4 4499.199 839.8855 6934.293     207 2.899317   4.056837   FALSE
+6  5 4496.923 836.9679 6902.702     570 2.874397   4.056608   FALSE
+7  6 4494.673 834.1145 6898.232     585 2.881570   4.056379   FALSE
+8  7 4492.422 831.2518 6883.985     206 2.877062   4.056149   FALSE
+9  8 4490.181 828.4065 6821.196     205 2.813854   4.055920   FALSE
+10 9 4487.994 825.7087 6796.639     568 2.795955   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.051667
+                                 R.2  = 3.033832
+                                 R.3  = 3.047953
+                                 R.4  = 3.009102
+                                 R.5  = 3.007543
+                                 R.6  = 2.971008
+                                 R.7  = 2.961612
+                                 R.8  = 2.884872
+                                 R.9  = 2.885608
+                                 R.10 = 2.813683
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4511.142 861.0956 7138.919     961 3.051667   4.057750   FALSE
+2  1 4508.695 857.7501 7110.965     565 3.033832   4.057522   FALSE
+3  2 4506.270 854.4581 7110.618     566 3.047953   4.057294   FALSE
+4  3 4503.841 851.1413 7065.012     569 3.009102   4.057065   FALSE
+5  4 4501.449 847.9283 7051.630     207 3.007543   4.056837   FALSE
+6  5 4499.066 844.7281 7008.760     585 2.971008   4.056608   FALSE
+7  6 4496.718 841.6238 6989.282     570 2.961612   4.056379   FALSE
+8  7 4494.384 838.5501 6913.494     205 2.884872   4.056149   FALSE
+9  8 4492.117 835.6621 6903.510     206 2.885608   4.055920   FALSE
+10 9 4489.855 832.7795 6833.033     583 2.813683   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.043647
+                                 R.2  = 3.050971
+                                 R.3  = 3.042760
+                                 R.4  = 3.054066
+                                 R.5  = 3.023821
+                                 R.6  = 3.032389
+                                 R.7  = 2.977919
+                                 R.8  = 2.972641
+                                 R.9  = 2.975935
+                                 R.10 = 2.900437
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4505.138 872.8184 7161.689     566 3.043647   4.057750   FALSE
+2  1 4502.665 869.4473 7155.323     565 3.050971   4.057522   FALSE
+3  2 4500.192 866.0680 7135.430     569 3.042760   4.057294   FALSE
+4  3 4497.734 862.7189 7132.534     961 3.054066   4.057065   FALSE
+5  4 4495.274 859.3518 7093.800     207 3.023821   4.056837   FALSE
+6  5 4492.846 856.0689 7088.779     585 3.032389   4.056608   FALSE
+7  6 4490.417 852.7745 7029.911     205 2.977919   4.056379   FALSE
+8  7 4488.039 849.6212 7013.658     570 2.972641   4.056149   FALSE
+9  8 4485.672 846.4892 7004.769     206 2.975935   4.055920   FALSE
+10 9 4483.309 843.3579 6929.416     583 2.900437   4.055690   FALSE
+
+
+
+Results of Outlier Test
+-------------------------
+
+Test Method:                     Rosner's Test for Outliers
+
+Hypothesized Distribution:       Normal
+
+Data:                            original_data[, i]
+
+Sample Size:                     1075
+
+Test Statistics:                 R.1  = 3.118288
+                                 R.2  = 3.119538
+                                 R.3  = 3.089173
+                                 R.4  = 3.104331
+                                 R.5  = 3.069126
+                                 R.6  = 3.066656
+                                 R.7  = 3.024139
+                                 R.8  = 3.003114
+                                 R.9  = 2.984576
+                                 R.10 = 2.968551
+
+Test Statistic Parameter:        k = 10
+
+Alternative Hypothesis:          Up to 10 observations are not
+                                 from the same Distribution.
+
+Type I Error:                    5%
+
+Number of Outliers Detected:     0
+
+   i   Mean.i     SD.i    Value Obs.Num    R.i+1 lambda.i+1 Outlier
+1  0 4485.785 883.0488 7239.386     566 3.118288   4.057750   FALSE
+2  1 4483.221 879.4481 7226.693     565 3.119538   4.057522   FALSE
+3  2 4480.664 875.8554 7186.333     961 3.089173   4.057294   FALSE
+4  3 4478.140 872.3516 7186.208     569 3.104331   4.057065   FALSE
+5  4 4475.612 868.8200 7142.130     570 3.069126   4.056837   FALSE
+6  5 4473.120 865.3882 7126.967     207 3.066656   4.056608   FALSE
+7  6 4470.637 861.9729 7077.363     206 3.024139   4.056379   FALSE
+8  7 4468.196 858.6730 7046.889     205 3.003114   4.056149   FALSE
+9  8 4465.780 855.4340 7018.888     585 2.984576   4.055920   FALSE
+10 9 4463.385 852.2489 6993.329     568 2.968551   4.055690   FALSE

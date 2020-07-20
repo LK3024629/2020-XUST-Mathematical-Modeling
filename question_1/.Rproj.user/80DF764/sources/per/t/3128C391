@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591630285710.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "586889812",
+    "id" : "3128C391",
+    "lastKnownWriteTime" : 1591381736,
+    "last_content_update" : 1591381736,
+    "path" : "~/Documents/AI/mathmodel/question_1/EDA.R",
+    "project_path" : "EDA.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
